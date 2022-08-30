@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Halifax Canoe and Kayak</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="dropdown">
+                <button id="drop" class="dropbtn" onclick="dropbtn()"></button>
+                <div id="myDropdown" class="dropdown-content">
+                    <hr class="solid">
+                    <a href="#">Home</a>
+                    <hr class="solid">
+                    <a href="#">Book Trip</a>
+                    <hr class="solid">
+                    <a href="#">Admin Login</a>
+                    <hr class="solid">
+                </div>
+            </div>
+
+
+            <!-- When the user clicks on the button, 
+            toggle between hiding and showing the dropdown content -->
+          <!--  <script>
+                document.getElementById("drop").addEventListener("click", function (e) {
+                    document.getElementById("myDropdown").classList.toggle("show");
+                });
+
+
+                // Close the dropdown if the user clicks outside of it
+                window.addEventListener("click", function (event) {
+                    if (!event.target.matches('.dropbtn')) {
+                        document.querySelectorAll(".dropdown-content.show")
+                            .forEach(openDropdown => openDropdown.classList.remove('show'))
+                    }
+                });
+            </script>
+        -->
+        
+        </nav>
+        Halifax Canoe and Kayak
+        <img id="paddle" src="paddle-white.png" alt="Crosssed Paddles Logo">
+    </header>
+
+
+    <div id="canoe">
+        <img src="canoe.jpg" style="max-width:100%; height:auto;">
+        <div id="canoetext">Come Experience
+            <br>
+            Canada
+        </div>
+
+    </div>
+
+    <div>
+        <h1>Upcoming Adventures</h1>
+    </div>
+
+    <div class="location">Halifax</div>
+    <div class="title"><strong>Date: </strong>September 21, 2022</div>
+    <div class="title"><strong>Time: </strong>10:00AM</div>
+    <br>
+    <div class="summ"><strong>Summary</strong></div>
+    <div>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mi justo, mattis quis orci sed, ullamcorper
+            malesuada leo. Donec tristique velit ut leo consequat euismod. Ut eleifend nunc at quam dictum mattis.
+            Praesent cursus quam at mollis ornare. Mauris sagittis ex vel mi iaculis venenatis. Orci varius natoque
+            penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque vel arcu non justo
+            ullamcorper commodo. Pellentesque eu auctor neque, at scelerisque libero. Ut luctus feugiat mattis.
+            Suspendisse quis accumsan neque. Mauris ut elit ut ex pharetra fermentum interdum dictum sapien. Fusce justo
+            ex, dignissim a suscipit sit amet, blandit ut nisl. Nam eget ultricies eros, at elementum erat. Fusce
+            dapibus est lorem, a scelerisque metus fermentum et. Nam vitae nunc ullamcorper purus rutrum sagittis at
+            quis orci.
+        </p>
+
+    </div>
+    <div class="location">Sydney</div>
+    <div class="title"><strong>Date: </strong>September 27, 2022</div>
+    <div class="title"><strong>Time: </strong>1:30PM</div>
+    <br>
+    <div class="summ"><strong>Summary</strong></div>
+    <div>
+
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mi justo, mattis quis orci sed, ullamcorper
+            malesuada leo. Donec tristique velit ut leo consequat euismod. Ut eleifend nunc at quam dictum mattis.
+            Praesent cursus quam at mollis ornare. Mauris sagittis ex vel mi iaculis venenatis. Orci varius natoque
+            penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque vel arcu non justo
+            ullamcorper commodo. Pellentesque eu auctor neque, at scelerisque libero. Ut luctus feugiat mattis.
+            Suspendisse quis accumsan neque. Mauris ut elit ut ex pharetra fermentum interdum dictum sapien. Fusce justo
+            ex, dignissim a suscipit sit amet, blandit ut nisl. Nam eget ultricies eros, at elementum erat. Fusce
+            dapibus est lorem, a scelerisque metus fermentum et. Nam vitae nunc ullamcorper purus rutrum sagittis at
+            quis orci.
+        </p>
+    </div>
+    </div>
+
+    <footer>
+        <small>
+            <ul>
+                <li><a href="mailto:info@HalifaxCanoeKayak">Contact Us</a></li>
+                <li>&copy;2022 Halifax Canoe and Kayak - All rights reserved</li>
+            </ul>
+        </small>
+        <script src='main.js'></script>
+    </footer>
+</body>
+
+</html>

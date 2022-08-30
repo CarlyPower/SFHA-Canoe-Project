@@ -1,0 +1,177 @@
+body {
+  margin-top: 0px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  ;
+}
+
+header {
+  background-color: #2a5196;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+
+div {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  font-size: 5vw;
+  margin: 0px 5px 10px 0px;
+  letter-spacing: 2px;
+}
+
+#paddle {
+  max-width: 40px;
+  float: right;
+}
+
+#canoe {
+  position: relative;
+  text-align: center;
+  color: white;
+  height: auto;
+  width: auto;
+  max-width: 1000px;
+}
+
+#canoetext {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.location {
+  text-align: left;
+  color: green;
+  font-weight: bold;
+  font-size: 2em;
+  text-decoration: underline;
+  text-underline-position: under;
+  text-decoration-skip-ink: none;
+  padding-bottom: 10px;
+}
+
+.title {
+  display: flex;
+  font-size: 1em;
+}
+
+.summ {
+  display: flex;
+  font-size: 18px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+footer {
+  position: relative;
+  text-align: center;
+  display: inline;
+  color: gray
+}
+
+footer li {
+  list-style: none;
+}
+
+a {
+  color: grey;
+  text-decoration: none;
+  font-size: 12px;
+  padding: 0 0 4px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  padding: 0;
+  margin-top: 0;
+}
+
+.dropbtn {
+  color: white;
+  background-color: #2a5196;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  background: url(hamburger.png);
+  background-repeat: no-repeat;
+  background-size: 100%
+}
+
+.dropdown {
+  position: relative;
+  float: left;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #2a5196;
+  min-width: 200px;
+  z-index: 1;
+  margin-top: 40px;
+}
+
+.dropdown-content a {
+  color: white;
+  background-color: #2a5196;
+  font-size: 30px;
+  padding: 1px 1px;
+  text-decoration: none;
+  display: block;
+}
+
+hr.solid {
+  border: none;
+}
+
+.show {
+  display: block;
+}
+
+/*Media Queries*/
+
+/* When the browser is 200-1000px */
+@media screen and (min-width: 200px) and (max-width:1000px) {
+
+  div {
+    max-width: 100%;
+  }
+
+  h1 {
+    max-width: 100%;
+  }
+
+  #canoetext {
+    font-size: 4vw;
+  }
+
+}
+
+/* When the browser is 1000px and up */
+@media screen and (min-width: 1000px) {
+
+  div {
+    max-width: 1000px;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  #canoetext {
+    font-size: 40px;
+  }
+
+}
